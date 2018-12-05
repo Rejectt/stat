@@ -1,1 +1,1 @@
-# stat
+# shakira-all-status
