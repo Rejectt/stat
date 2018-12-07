@@ -1,7 +1,7 @@
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  console.log(`Hi ${client.user.tag} , This Code by : Kahrbaa `);
+  console.log(`Hi ${client.user.tag} , This Code by :Mohamed `);
   console.log('')
   console.log(`i Have  [ " ${client.guilds.size} " ]`);
 });
