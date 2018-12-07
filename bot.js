@@ -1,7 +1,8 @@
+const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  console.log(`Hi ${client.user.tag} , This Code by :Mohamed `);
+  console.log(`Hi ${client.user.tag} , This Code by : MeDo `);
   console.log('')
   console.log(`i Have  [ " ${client.guilds.size} " ]`);
 });
@@ -41,6 +42,7 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
 }
 });
+
 
 
 
